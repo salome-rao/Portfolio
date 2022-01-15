@@ -3,6 +3,7 @@ $( document ).ready(function() {
                 $("#about_scroll").fadeOut();   
                 $("#work_scroll").fadeOut();
                 $("#contact_scroll").fadeOut();
+                $("#certs_scroll").fadeOut();
 
                 $("#about").click(function(){
                     $("#index").fadeOut();
@@ -16,12 +17,12 @@ $( document ).ready(function() {
                     $('#work_left').addClass('animated slideInLeft');
                     $('#work_right').addClass('animated slideInRight');
                     });
-                    $("#certificates").click(function(){
-                        $("#index").fadeOut();
-                        $("#about_scroll").fadeIn();
-                        $('#about_left').addClass('animated slideInLeft');
-                        $('#about_right').addClass('animated slideInRight');
-                        });
+                $("#certs").click(function(){
+                    $("#index").fadeOut();
+                    $("#certs_scroll").fadeIn();
+                    $('#certs_left').addClass('animated slideInLeft');
+                    $('#certs_right').addClass('animated slideInRight');
+                    });
                 $("#contact").click(function(){
                     $("#index").fadeOut();
                     $("#contact_scroll").fadeIn();
