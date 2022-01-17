@@ -37,5 +37,20 @@ $( document ).ready(function() {
                     $('#index_left').addClass('animated slideInLeft');
                     $('#index_right').addClass('animated slideInRight');
                     });
+                    // let skilsContent = select('.skills-content');
+                    // if (skilsContent) {
+                    //   new Waypoint({
+                    //     element: skilsContent,
+                    //     offset: '80%',
+                    //     handler: function(direction) {
+                    //       let progress = select('.progress .progress-bar', true);
+                    //       progress.forEach((el) => {
+                    //         el.style.width = el.getAttribute('aria-valuenow') + '%'
+                    //       });
+                    //     }
+                    //   })
+                    // } 
+
            
 		});
+        

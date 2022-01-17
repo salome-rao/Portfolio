@@ -19,6 +19,56 @@ body{
     line-height: 29px;
 
 }
+ /* <-- skills--> */
+
+	  
+ .skills .progress {
+	height: 50px;
+	display: block;
+	background: none;
+  }
+  .skills .progress .skill {
+	  
+	padding: 10px ;
+	margin: 0 0 6px 0;
+	text-transform: uppercase;
+	display: block;
+	font-weight: 600;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #1f3a74;
+  }
+  .skills .progress .skill .val {
+	float: right;
+	font-style: normal;
+  }
+  .skills .progress-bar-wrap {
+	background: #fbeaf1;
+  }
+  .skills .progress-bar {
+	width: 1px;
+	height: 10px;
+	transition: 0.9s;
+	
+  }
+
+.allcert{
+	width: 300px;
+   height: 250px;
+   object-fit: contain;
+  border: 2px solid black;
+  margin:5px;
+}
+#certs_left{
+	padding-top: 50px;
+	padding-right: 20px;
+	
+}
+#certs_right{
+	
+}
+.containerCert{
+	text-align: center;
+}
 #image1{
 	height:fit-content;
 }
@@ -246,7 +296,12 @@ footer{
 .social{
 	padding-bottom: 15px;
 }
-
+#index_left{
+	margin-top: 25px;
+}
+.icon{
+	margin:10px;
+}
 .submit{
 
 	font-family: "Crimson";
